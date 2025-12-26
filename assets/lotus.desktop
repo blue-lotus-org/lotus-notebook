@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=Lotus Notebook
+Comment=A lightweight Jupyter-like notebook application for Python development
+Exec=lotus-notebook %F
+Icon=lotus-notebook
+Terminal=false
+Categories=Development;Education;Python;IDE;
+MimeType=application/x-lotus-notebook;
+Keywords=python;notebook;development;education;coding;
+
+Actions=NewNotebook;
+
+[Desktop Action NewNotebook]
+Name=New Notebook
+Exec=lotus-notebook
+Icon=lotus-notebook
+
+X-GNOME-UsesNotifications=true
+X-GNOME-Gettext-Domain=lotus-notebook
